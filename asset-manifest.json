@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ronhung12/static/css/main.d1b05096.chunk.css",
+    "main.js": "/ronhung12/static/js/main.b3bc26c7.chunk.js",
+    "main.js.map": "/ronhung12/static/js/main.b3bc26c7.chunk.js.map",
+    "runtime-main.js": "/ronhung12/static/js/runtime-main.8c7e6205.js",
+    "runtime-main.js.map": "/ronhung12/static/js/runtime-main.8c7e6205.js.map",
+    "static/js/2.78e1a0ac.chunk.js": "/ronhung12/static/js/2.78e1a0ac.chunk.js",
+    "static/js/2.78e1a0ac.chunk.js.map": "/ronhung12/static/js/2.78e1a0ac.chunk.js.map",
+    "index.html": "/ronhung12/index.html",
+    "precache-manifest.0a0d33db99013fbeaaa24903a52897c5.js": "/ronhung12/precache-manifest.0a0d33db99013fbeaaa24903a52897c5.js",
+    "service-worker.js": "/ronhung12/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/ronhung12/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.78e1a0ac.chunk.js.LICENSE.txt": "/ronhung12/static/js/2.78e1a0ac.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ronhung12/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c7e6205.js",
+    "static/js/2.78e1a0ac.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.b3bc26c7.chunk.js"
+  ]
+}
