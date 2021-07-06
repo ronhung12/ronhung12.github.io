@@ -46,16 +46,42 @@ const Resume = () => {
                 <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
+                            <h3>Citigroup</h3>
+                            <p className="info">
+                                Senior Information Security Analyst <span>•</span>{" "}
+                                <em className="date">June 2020 - Present</em>
+                            </p>
+                            <ul style={{listStyleType: "disc", textAlign: 'left'}}>
+                                <li>Created a cloud testing and compliance suite using Terraform,
+                                    terraform-compliance, and Python</li>
+                                <li>Triaged Citi’s internet/intranet application source code using Checkmarx</li>
+                                <li>Identied and escalated security issues in source code and managed
+                                    code remediation using Checkmarx and Archer</li>
+                                <li>Resolved ServiceNow tickets that ranged from full code triaging to
+                                    working with software development teams to remediate security
+                                    issues</li>
+                                <li>Created a Python testbed to check effectiveness of our CxAudit queries</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div className="row item">
+                        <div className="twelve columns">
                             <h3>UBS Group AG</h3>
                             <p className="info">
                                 Frontend Engineer <span>•</span>{" "}
-                                <em className="date">September 2019 - Present</em>
+                                <em className="date">September 2019 - May 2020</em>
                             </p>
                             <ul style={{listStyleType: "disc", textAlign: 'left'}}>
-                                <li>Constructed single page applications from ground-up including document smart search engine, ETL framework wizard, and ETL workflow editor using ReactJS,
-                                    Flask, Cassandra, and DataStax.</li>
+                                <li>Constructed single page applications from ground-up such as a
+                                    smart search for OCR (optical character recognition) translated
+                                    nancial documents and ETL workow editor using ReactJS, Flask,
+                                    Cassandra, and DataStax</li>
                                 <li>Implemented RESTful APIs and rendered PDF streams with PDF.JS.</li>
-                                <li>Created complex stateful and stateless React components or used more opinionated and specialized components from MaterialUI or AntDesign.</li>
+                                <li>Created complex stateful and stateless React components using
+                                    JSX, CSS3, and LESS or used specialized components from MaterialUI
+                                    or AntDesign</li>
                             </ul>
                         </div>
                     </div>
@@ -68,11 +94,11 @@ const Resume = () => {
                             <h3>Mercury Systems Inc</h3>
                             <p className="info">
                                 Full Stack Developer <span>•</span>{" "}
-                                <em className="date">January 2019 - August 2019</em>
+                                <em className="date">Sept 2018 - August 2019</em>
                             </p>
                             <ul style={{listStyleType: "disc", textAlign: 'left'}}>
                                 <li>Provided clients with technical services in Java, Spring, React, Oracle 11g, HTML5/CSS3, and Node/Express.</li>
-                                <li>Participated and design and implementation of complex React components, Java files, and database design.</li>
+                                <li>Participated in design and implementation of complex React components, Java files, and database design.</li>
                                 <li>Implemented and designed RESTFUL API endpoints and corresponding JSON responses.</li>
                             </ul>
                         </div>
@@ -109,37 +135,9 @@ const Resume = () => {
                 </div>
                 <div className="nine columns main-col">
                     <p>
-                        As a software engineer I am versed in single page application architecture, web design, application architecture, database design, MVC and working in an agile environments. I have knowledge
+                        As a software engineer I am versed in single page application architecture, web design, application architecture, database design, MVC and working in Agile environments. I have knowledge
                         of machine learning and bioinformatics with Perl,MATLAB, and Python.
                     </p>
-                    {/*<div className="bars">*/}
-                    {/*    <ul className="skills">*/}
-                    {/*        <li>*/}
-                    {/*            <span className="bar-expand photoshop"/>*/}
-                    {/*            <em>JavaScript</em>*/}
-                    {/*        </li>*/}
-                    {/*        <li>*/}
-                    {/*            <span className="bar-expand illustrator"/>*/}
-                    {/*            <em>Illustrator</em>*/}
-                    {/*        </li>*/}
-                    {/*        <li>*/}
-                    {/*            <span className="bar-expand wordpress"/>*/}
-                    {/*            <em>Wordpress</em>*/}
-                    {/*        </li>*/}
-                    {/*        <li>*/}
-                    {/*            <span className="bar-expand css"/>*/}
-                    {/*            <em>CSS</em>*/}
-                    {/*        </li>*/}
-                    {/*        <li>*/}
-                    {/*            <span className="bar-expand html5"/>*/}
-                    {/*            <em>HTML5</em>*/}
-                    {/*        </li>*/}
-                    {/*        <li>*/}
-                    {/*            <span className="bar-expand jquery"/>*/}
-                    {/*            <em>jQuery</em>*/}
-                    {/*        </li>*/}
-                    {/*    </ul>*/}
-                    {/*</div>*/}
                     <div className="skills">
                         <ul style={{textAlign: 'left'}}>
                             <li>

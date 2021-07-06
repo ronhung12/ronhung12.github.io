@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
     return (
         <>
-            <footer id="footer">
+            <footer>
                 <div className="row">
-                    <div className="twelve columns">
+                    <div className="twelve columns" id="footer">
                         <h1>
                             <span>Get In Touch.</span>
                         </h1>
@@ -34,7 +34,6 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            ;
         </>
     )
 };

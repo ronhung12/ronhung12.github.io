@@ -79,9 +79,27 @@ const Portfolio = () => {
                                     </a>
                                 </div>
                             </div>
+                            <br/>
+                            <br/>
+                            <h1>Future Projects</h1>
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#basketball" title>
+                                        <img alt src="images/portfolio/basketball.jpg"/>
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Basketball Analytics Web Scraper</h5>
+                                                <p>Single Page Application</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon">
+                                            <i className="icon-plus"/>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         {" "}
-                        {/* portfolio-wrapper end */}
                     </div>
                     {" "}
                     {/* twelve columns end */}
@@ -152,12 +170,12 @@ const Portfolio = () => {
                             alt
                         />
                         <div className="description-box">
-                            <h4><i className="fas fa-shipping-fast"/>{" "}Shipping Label Maker</h4>
+                            <h4><i className="fas fa-shipping-fast"/>{" "}Quiz</h4>
                             <p>
                                 <i className="fas fa-layer-group"/>
                                 <p>React, Node, MaterialUI</p>
                                 <b>About</b>
-                                <p>Created with intent to be used in conjunction with the pharmacy inventory management system where it would autofill shipping label by user digression</p>
+                                <p>Easy to use quiz, where users can also import their own questions into the Node server</p>
 
                             </p>
                         </div>
@@ -188,108 +206,34 @@ const Portfolio = () => {
                             <a className="popup-modal-dismiss">Close</a>
                         </div>
                     </div>
+                    <div id="basketball" className="popup-modal mfp-hide">
+                        <img
+                            className="scale-with-grid"
+                            src="images/portfolio/basketball.jpg"
+                            alt
+                        />
+                        <div className="description-box">
+                            <h4>Basketball Analytics Web Scraper</h4>
+                            <p>
+                                <i className="fas fa-layer-group"/>
+                                <p>React, Redux, Python, NumPy, Flask</p>
+                                <b>About</b>
+                                <p>A web based application that has a backend access to webscraped data from {" "}
+                                    <a href="https://www.basketball-reference.com" rel="noopener noreferrer" target="_blank">https://www.basketball-reference.com/</a>.
+                                    This application would have applied algorithms to provide additional values to player statistics.
+                                </p>
+                            </p>
+                        </div>
+                        <div className="link-box">
+                            <a href="https://www.basketball-reference.com" rel="noopener noreferrer" target="_blank">Details</a>
+                            <a className="popup-modal-dismiss">Close</a>
+                        </div>
+                    </div>
                     {/* modal-04 End */}
-                    <div id="modal-05" className="popup-modal mfp-hide">
-                        <img
-                            className="scale-with-grid"
-                            src="images/portfolio/modals/m-farmerboy.jpg"
-                            alt
-                        />
-                        <div className="description-box">
-                            <h4>Farmer Boy</h4>
-                            <p>
-                                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                                lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-                                sem nibh id elit.
-                            </p>
-                            <span className="categories">
-          <i className="fa fa-tag"/>
-          Branding, Webdesign
-        </span>
-                        </div>
-                        <div className="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a className="popup-modal-dismiss">Close</a>
-                        </div>
-                    </div>
-                    {/* modal-05 End */}
-                    <div id="modal-06" className="popup-modal mfp-hide">
-                        <img
-                            className="scale-with-grid"
-                            src="images/portfolio/modals/m-girl.jpg"
-                            alt
-                        />
-                        <div className="description-box">
-                            <h4>Girl</h4>
-                            <p>
-                                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                                lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-                                sem nibh id elit.
-                            </p>
-                            <span className="categories">
-          <i className="fa fa-tag"/>
-          Photography
-        </span>
-                        </div>
-                        <div className="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a className="popup-modal-dismiss">Close</a>
-                        </div>
-                    </div>
-                    {/* modal-06 End */}
-                    <div id="modal-07" className="popup-modal mfp-hide">
-                        <img
-                            className="scale-with-grid"
-                            src="images/portfolio/modals/m-origami.jpg"
-                            alt
-                        />
-                        <div className="description-box">
-                            <h4>Origami</h4>
-                            <p>
-                                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                                lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-                                sem nibh id elit.
-                            </p>
-                            <span className="categories">
-          <i className="fa fa-tag"/>
-          Branding, Illustration
-        </span>
-                        </div>
-                        <div className="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a className="popup-modal-dismiss">Close</a>
-                        </div>
-                    </div>
-                    {/* modal-07 End */}
-                    <div id="modal-08" className="popup-modal mfp-hide">
-                        <img
-                            className="scale-with-grid"
-                            src="images/portfolio/modals/m-retrocam.jpg"
-                            alt
-                        />
-                        <div className="description-box">
-                            <h4>Retrocam</h4>
-                            <p>
-                                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-                                lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
-                                sem nibh id elit.
-                            </p>
-                            <span className="categories">
-          <i className="fa fa-tag"/>
-          Webdesign, Photography
-        </span>
-                        </div>
-                        <div className="link-box">
-                            <a href="http://www.behance.net">Details</a>
-                            <a className="popup-modal-dismiss">Close</a>
-                        </div>
-                    </div>
-                    {/* modal-01 End */}
                 </div>
                 {" "}
                 {/* row End */}
             </section>
-            ;
         </>
     )
 };

@@ -11,7 +11,7 @@ const About =()=> {
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
                         <p>
-                            I graduated from Fordham University with a B.Sc. in Computer Science/Bioinformatics and currently work as a front end engineer for UBS.
+                            I graduated from Fordham University with a B.Sc. in Computer Science/Bioinformatics and currently work as a Senior Information Security Analyst at Citi.
                             I enjoy tackling complex problems with innovative and practical solutions and creating the best user experience in terms of visual design and performance.
                             I always strive to learn new technologies and add them to my skill set and repertoire. Look around and feel free to reach out if you have any questions.
                         </p>
@@ -28,7 +28,7 @@ const About =()=> {
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a download href="../../public/pdf/Ronald_Hung_Resume.pdf" className="button">
+                                    <a download href="https://drive.google.com/file/d/12dxnStIl5Euzqp45fzbC9MQXGHwnBM7y/view?usp=sharing" type="application/pdf" className="button">
                                         <i className="fa fa-download"/>
                                         Download Resume
                                     </a>
@@ -40,7 +40,6 @@ const About =()=> {
                     {" "}
                 </div>
             </section>
-            ;
         </>
     )
 };

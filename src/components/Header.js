@@ -32,11 +32,6 @@ const Header =()=> {
                                 Projects
                             </a>
                         </li>
-                        <li>
-                            <a className="smoothscroll" href="#footer">
-                                Contact
-                            </a>
-                        </li>
                     </ul>{" "}
                     {/* end #nav */}
                 </nav>{" "}
@@ -80,7 +75,7 @@ const Header =()=> {
                         <i className="icon-down-circle" />
                     </a>
                 </p>
-            </header>;
+            </header>
         </>
     )
 };
