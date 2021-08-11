@@ -55,7 +55,7 @@ const Resume = () => {
                                 <li>Created a cloud testing and compliance suite using Terraform,
                                     terraform-compliance, and Python</li>
                                 <li>Triaged Citi’s internet/intranet application source code using Checkmarx</li>
-                                <li>Identied and escalated security issues in source code and managed
+                                <li>Identified and escalated security issues in source code and managed
                                     code remediation using Checkmarx and Archer</li>
                                 <li>Resolved ServiceNow tickets that ranged from full code triaging to
                                     working with software development teams to remediate security
